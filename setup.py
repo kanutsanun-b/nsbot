@@ -4,14 +4,14 @@ import os.path
 setup(
   name = 'nsbot',         # How you named your package folder (MyLib)
   packages = ['nsbot'],   # Chose the same as "name"
-  version = '0.0.2',      # Start with a small number and increase it with every change you make
+  version = '0.0.4',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'Read METAR, SPECI and Taf then send to Line application',   # Give a short description about your library
   long_description='plese read in: https://github.com/kanutsanun-b/nsbot',
   author = 'Kanutsanun Bouking',                   # Type in your name
   author_email = 'kanutsanun.b@gmail.com',      # Type in your E-Mail
   url = 'https://github.com/kanutsanun-b/nsbot',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/kanutsanun-b/nsbot/archive/0.0.2.zip',    # I explain this later on
+  download_url = 'https://github.com/kanutsanun-b/nsbot/archive/0.0.4.zip',    # I explain this later on
   keywords = ['NSWEB', 'METAR', 'SPECI', 'TAF', 'kanutsanun bouking'],   # Keywords that define your package best
   install_requires=[
           'pywin32', 'schedule', 'requests', 'selenium'
